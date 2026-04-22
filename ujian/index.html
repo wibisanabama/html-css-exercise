@@ -1,0 +1,172 @@
+<!-- Bama Maulana Wibisana -->
+<!-- X PPLG -->
+<!-- 23/1/2025 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bama Maulana Wibisana</title>
+</head>
+<body style="font-family: Arial;">
+    <h1 style="color: red;">Getting started</h1>    
+    <center>
+        <h1>Getting started with your Raspberry Pi</h1>
+    </center>
+    <small>Edit this <a href="https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/computers/getting-started/setting-up.adoc">on GitHub</a></small>
+    <center>
+        <img src="image.png" alt="image">
+    </center>
+    <p>
+        To get started with your Raspberry Pi, you’ll need the following:
+        <ul>
+            <li>a <a href="https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#power-supply">power supply</a></li>
+            <li>boot media (e.g. a <a href="https://www.raspberrypi.com/documentation/computers/getting-started.html#recommended-sd-cards">microSD card with ample storage and speed</a>)</li>
+        </ul>
+    </p>
+    <p>
+        You can set up your <span style="color: green;"><b>Raspberry Pi</b></span> as an interactive computer with a desktop, or as
+        a <i>headless</i> computer accessible only over the network. To set your <span style="color: green;"><b>Raspberry Pi</b></span> up headless,
+        you don’t need any additional peripherals: you can preconfigure a hostname, user account,
+        network connection, and SSH when you <a href="https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system">install an operating system</a>. If you want to use your
+        <span style="color: green;"><b>Raspberry Pi</b></span> directly, you’ll need the following additional accessories:
+    </p>
+    <p>
+        <ul>
+            <li>a display
+                <ol type="a">
+                    <li>integrated display</li>
+                    <li>external display
+                        <ol type="1">
+                            <li>7 inch display</li>
+                            <li>5 inch display</li>
+                            <li>4 inch display</li>
+                        </ol>
+                    </li>
+                </ol>
+            <li>a cable to connect your Raspberry Pi to your display</li>
+            <li>a keyboard</li>
+            <li>a mouse</li>
+            <li></li>
+            </li>
+        </ul>
+    </p>
+    <h1><i>Power supply</i></h1>
+    <p>
+        The following table shows the USB-PD power mode required to power various
+        Raspberry Pi models. You can use any high-quality power supply that provides
+        the correct power mode.
+    </p>
+    <center>
+    </table>
+    <br>
+    <table border="1" width="50%">
+        <tr>
+            <td><center><b>Model</b></center></td>
+            <td><center><b>Recommended power supply <br>
+                            (voltage/current)</b></center></td>
+            <td><center><b>Raspberry Pi power <br>
+                            supply</b></center></td>
+        </tr>
+        <tr>
+            <td>Raspberry Pi 5 </td>
+            <td>5V/5A, 5V/3A limits peripherals <br>
+                to 600mA</td>
+            <td><a href="https://www.raspberrypi.com/products/27w-power-supply/">
+                27W USB-C power <br>
+                supply</a></td>
+        </tr>
+        <tr>
+            <td>Raspberry Pi 4 Model <br>
+                B
+                </td>
+            <td>5V/3A</td>
+            <td><a href="https://www.raspberrypi.com/products/type-c-power-supply/">15W USB-C power <br>
+                supply</a></td>
+        </tr>
+        <tr>
+            <td>Raspberry Pi 3 (all <br>
+                models)</td>
+            <td>5V/2.5A 600mA</td>
+            <td><a href="https://www.raspberrypi.com/products/micro-usb-power-supply/">
+                12.5W Micro USB <br>
+                power supply</a></td>
+        </tr>
+        <tr>
+            <td>Raspberry Pi2 (all <br>
+                models)
+                </td>
+            <td>5V/2.5A</td>
+        </tr>
+        <tr>
+            <td>Raspberry Pi1 (all <br>
+                models)</td>
+        </tr>
+    </table>
+    </center>
+    <hr>
+    <p><b>Audio</b></p>
+    <p>
+        All Raspberry Pi models with <span style="color: red;"><b><u>HDMI</u></b></span>, micro <span style="color: red;"><b><u>HDMI</u></b></span>, or mini <span style="color: red;"><b><u>HDMI</u></b></span> support audio output
+        over <span style="color: red;"><b><u>HDMI</u></b></span>. All Raspberry Pi models support audio over USB. All Raspberry Pi models
+        equipped with Bluetooth support Bluetooth audio. All variants of the Raspberry Pi 1, 2,
+        3, and 4 include a 3.5mm auxiliary <a href="http://en.wikipedia.org/wiki/Phone_connector_(audio)#TRRS_standards">TRRS</a> jack, which may require amplification for
+        sufficient output volume.
+    </p>
+    <p><b>Networking</b></p>
+    <p>
+        The following Raspberry Pi models come with Wi-Fi and Bluetooth connectivity:
+        <ul type="•">
+            <li>Flagship models since Raspberry Pi 3 Model B</li>
+            <li>All Zero W models</li>
+            <li>All Pico W models</li>
+            <li>Compute Modules configured with wireless (available since CM4)</li>
+        </ul>
+    </p>
+    <br>
+    <table border="1" width="50%" style="color: black;">
+        <tr>
+            <td><center><b>OS CUSTOMIZATION</b></center></td>
+        </tr>
+    </table>
+    <br>
+    <table border="1" width="50%">
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>Set hostname <input type="text" name="" id=""> .local</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="" id=""></td>
+            <td>Set username and password</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="" id=""></td>
+            <td>Username</td>
+            <td><input type="text" name="" id=""></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>Password</td>
+            <td><input type="text" name="" id=""></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Configure wifi</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>SSID</td>
+            <td><input type="text" name="" id=""></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
