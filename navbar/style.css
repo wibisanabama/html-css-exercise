@@ -1,0 +1,13 @@
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.flex .nav-list{
+    display: flex;
+    gap: 1em;
+}
+.grid .nav-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
