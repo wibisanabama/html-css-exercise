@@ -1,2 +1,2 @@
-# html-css-exercise
+# HTML CSS Exercise
 HTML and CSS programs
